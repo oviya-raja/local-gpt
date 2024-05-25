@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oviyar"
+version = "0.1.0"
+description = "My Local GPT Study Assistant"
+authors = ["Oviya Raja <oviya.r@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ollama = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
